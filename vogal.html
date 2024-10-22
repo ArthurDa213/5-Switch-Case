@@ -5,11 +5,26 @@
     */
 
     // ENTRADA DE DADOS
-
-
+    let caractere = prompt('Digite um caractere:');
 
     // PROCESSAMENTO
-
+    // A E I O U
+    switch (caractere) {
+        case 'A':
+        case 'E':
+        case 'I':
+        case 'O':
+        case 'U':
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+            document.write("É uma vogal");
+            break;
+        default:
+            document.write("Não é uma vogal");
+    }
 
 
     // SAÍDA DE DADOS
