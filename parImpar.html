@@ -5,11 +5,18 @@
     */
 
     // ENTRADA DE DADOS
-
+    let numero = parseInt(prompt("Digite um número:"));
 
     
     // PROCESSAMENTO
-
+    let calc = numero % 2;
+    switch(numero%2) {
+        case 0:
+            document.write("É par.");
+            break;
+        case 1:
+            document.write("É ímpar.");
+    }
 
 
     // SAÍDA DE DADOS
