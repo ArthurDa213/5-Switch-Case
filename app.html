@@ -8,11 +8,20 @@
     */
 
     // ENTRADA DE DADOS
-
+    const saldacao221 = promtp("A-Administrador, G-Gerente, U-Usuário Comum:");
 
     
     // PROCESSAMENTO
-
+    switch (saldacao) {
+        case A:
+            document.write("Bom dia, Senhor!");
+            break;
+        case 'G':
+            document.write("Bom dia, Chefe!");
+            break;
+        case "U":
+            document.write("Bom dia!");
+    }
 
 
     // SAÍDA DE DADOS
